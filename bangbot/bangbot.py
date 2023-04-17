@@ -113,15 +113,11 @@ class Bang_Bot():
             r+=1
         
     def circularbang(self):#Circular pattern
-        """
         x1, y1 = self.get_coord()
         while keyboard.is_pressed('y'):
              pass
         x2, y2 = self.get_coord()
         c=self.get_color_index()
-        """
-        x1,y1,x2,y2 = int(input("X1: ")) , int(input("Y1: ")) , int(input("X2: ")) , int(input("Y2: "))
-        c = 5
         center_x, center_y = (x1 + x2) // 2, (y1 + y2) // 2 # center of the selected area
         pixels = []
         for x in range(x1, x2+1):
