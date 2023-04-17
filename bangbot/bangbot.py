@@ -213,7 +213,7 @@ class Bang_Bot():
                 x = x - 1
             y = y + 1
     
-    def rndmnss_fill(self):
+    def rndmnss_fill(self):#İt's not available for now.
         color = self.get_color_index()
         x1, y1 = self.get_coord()
         while keyboard.is_pressed('r'):
